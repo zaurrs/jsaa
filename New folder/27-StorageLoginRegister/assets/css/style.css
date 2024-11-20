@@ -1,0 +1,125 @@
+/* Ümumi səhifə tərtibatı */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.nav .btn {
+    position: relative;
+}
+
+.nav .log-reg {
+    display: none;
+}
+
+.nav .btn button {
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.nav .iconlar {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav .iconlar i {
+    color: white;
+    cursor: pointer;
+}
+
+/* Login / Register status dəyişməsi */
+#usernameDisplay {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#usernameDisplay::before {
+    content: "Welcome, ";
+}
+
+/* Login/Registration buttons visibility */
+.nav .btn button.login-btn {
+    display: block;
+}
+.log-reg{
+    display: none;
+}
+.login-btn:hover{
+    .log-reg{
+        display: block;
+    }
+}
+.nav .log-reg button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.nav .log-reg a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav .log-reg button:hover,
+.nav .btn button.login-btn:hover {
+    background-color: #ff5733;
+}
+
+/* Toast Notification Styles */
+.Toastify {
+    background-color: #00b09b;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Toastify.toastify-top-left {
+    top: 20px;
+    left: 20px;
+}
