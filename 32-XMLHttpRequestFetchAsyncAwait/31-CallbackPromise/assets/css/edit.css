@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.form{
+    padding: 15px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 1px 5px rgb(0, 0, 0);
+    background-image: linear-gradient(to right, aqua, blue);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.item input{
+    height: 20px;
+}
+.btnn{
+    height: 30px;
+}
+.icon{
+    position: relative;
+}
+.iconn {
+    position: absolute;
+    top: 350px;
+    right: 40%;
+
+}
