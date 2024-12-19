@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "name": "Ferris Dudley",
+      "surname": "Farley",
+      "username": "gabumad",
+      "email": "gadih@mailinator.com",
+      "password": "Zaur1234@",
+      "confirm": "Zaur1234@",
+      "isLogin": false,
+      "id": 1
+    }
+  ]
+}
