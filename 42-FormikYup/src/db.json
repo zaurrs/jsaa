@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "58e2",
+      "name": "zaur",
+      "surname": "zaur",
+      "username": "zaur",
+      "email": "zaur@gmail.com",
+      "password": " ",
+      "confirm": "1111!Zaa",
+      "isLogin": true
+    }
+  ]
+}

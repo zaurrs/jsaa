@@ -1,0 +1,32 @@
+form {
+  margin: 100px auto;
+    background: linear-gradient(to right, aqua, rgb(202, 33, 33));
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid orange;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    .form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .btn {
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(to right, aqua, rgb(202, 33, 33));
+    border: none;
+    border-radius: 8px;
+    &:hover {
+      background: linear-gradient(to right, rgb(202, 33, 33), aqua);
+    }
+  }
+  .errors {
+    color: red;
+  }
+  
