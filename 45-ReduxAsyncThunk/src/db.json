@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "be86",
+      "name": "ead",
+      "surname": "asdf",
+      "username": "Zaur",
+      "email": "zaur@gmail.com",
+      "password": "1234!Zaa",
+      "confirm": "1234!Zaa",
+      "isLogin": false
+    },
+    {
+      "id": "a62e",
+      "name": "test",
+      "surname": "test",
+      "username": "test",
+      "email": "seide@gmail.com",
+      "password": "12345!Za",
+      "confirm": "12345!Za",
+      "isLogin": false
+    },
+    {
+      "id": "81f8",
+      "name": "tesst",
+      "surname": "tesst",
+      "username": "tesst",
+      "email": "test@gmail.com",
+      "password": "12345!Aa",
+      "confirm": "12345!Aa",
+      "isLogin": false
+    }
+  ]
+}
